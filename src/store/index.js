@@ -9,21 +9,14 @@ export default new Vuex.Store({
     registeredUsers: [],
     currentUser: {},
     products:[
+
       {
-        userName:'Jurek' ,
-        title:'Air shoes' ,
-        description: 'I\'m baby heirloom butcher pug lumbersexual wolf yr vaporware mlkshk tote bag williamsburg pour-over hella. Microdosing austin occupy, authentic kickstarter poutine chia YOLO butcher.',
-        price: 100,
-        image:'https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' ,
-        id: '1631440103680_44'
-      },
-      {
-        userName:'Ismaele' ,
-        title:'Sunglasses Gentle Monster' ,
+        userName:'batman' ,
+        title:'Batmant lego' ,
         description: 'Live-edge try-hard tbh fingerstache, direct trade selfies ethical celiac poutine mlkshk.',
-        price: 50.99,
-        image:'https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80' ,
-        id: '1631440128797_88'
+        price: 5000,
+        image:'https://images.unsplash.com/photo-1542410613-d073472c3135?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80' ,
+        id: '1631440128799_00'
       },
       {
         userName:'Yaser' ,
@@ -40,6 +33,22 @@ export default new Vuex.Store({
         price: 999.99,
         image:'https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80' ,
         id: '1631440278418_93'
+      },
+      {
+        userName:'Jurek' ,
+        title:'Air shoes' ,
+        description: 'I\'m baby heirloom butcher pug lumbersexual wolf yr vaporware mlkshk tote bag williamsburg pour-over hella. Microdosing austin occupy, authentic kickstarter poutine chia YOLO butcher.',
+        price: 100,
+        image:'https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80' ,
+        id: '1631440103680_44'
+      },
+      {
+        userName:'Ismaele' ,
+        title:'Sunglasses Gentle Monster' ,
+        description: 'Live-edge try-hard tbh fingerstache, direct trade selfies ethical celiac poutine mlkshk.',
+        price: 50.99,
+        image:'https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80' ,
+        id: '1631440128797_88'
       },
       {
         userName:'Tytus' ,
