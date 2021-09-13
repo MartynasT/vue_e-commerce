@@ -1,4 +1,7 @@
-# vue_ecommerce_fe
+# VueJS ecommerce frontend
+![](vue_ecommerce.png)
+
+[Live link 🔗](https://fervent-volhard-fa4a7e.netlify.app/#/)
 
 ## Project setup
 ```

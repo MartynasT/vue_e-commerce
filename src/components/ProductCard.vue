@@ -85,6 +85,7 @@ export default {
     width: 100%;
     display: block;
     margin-bottom: 24px;
+    border: 1px solid black;
   }
 
   .actions{

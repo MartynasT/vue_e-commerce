@@ -9,7 +9,6 @@ export default new Vuex.Store({
     registeredUsers: [],
     currentUser: {},
     products:[
-
       {
         userName:'batman' ,
         title:'Batmant lego' ,
@@ -99,7 +98,8 @@ export default new Vuex.Store({
 
     uploadProduct(state, payload) {
 
-      state.products = [...state.products, payload]
+      state.products = [payload, ...state.products]
+      router.push('/')
     },
 
     deleteProduct(state, payload) {
